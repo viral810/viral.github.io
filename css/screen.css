@@ -18,6 +18,7 @@ html, body {
 body {
   background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -163,6 +164,12 @@ ul.posts {
   #post ul,
   #post ol {
     margin-left: 1.35em;
+  }
+
+  #post blockquote{
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    background-color: #efefef;
   }
 
   #post code {
